@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';;
+import RandomName from '../components/RandomName.astro';
+import RandomFact from '../components/RandomFact.astro';
+
+export const prerender = false;
+
+console.log("Astro.request.method", Astro.request.method);
+---
+
+<Layout title="A name and a fact.">
+	<h2>A name</h2>
+	<RandomName />
+	<h2>A fact</h2>
+	<RandomFact />
+</Layout>

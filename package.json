@@ -1,0 +1,22 @@
+{
+  "name": "visible-venus",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview:express": "node --watch server.mjs",
+    "preview:fastify": "node --watch fastify-server.js",
+    "preview:standalone": "node dist/server/entry.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^5.3.0",
+    "@fastify/middie": "^8.3.0",
+    "@fastify/static": "^6.10.2",
+    "astro": "^2.9.6",
+    "express": "^4.18.2",
+    "fastify": "^4.21.0"
+  }
+}
