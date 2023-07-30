@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview:express": "node server.js",
+    "preview": "node server.js",
     "preview:fastify": "node fastify-server.js",
     "astro": "astro"
   },
