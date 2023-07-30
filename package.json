@@ -6,9 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview:express": "node --watch server.mjs",
-    "preview:fastify": "node --watch fastify-server.js",
-    "preview:standalone": "node dist/server/entry.mjs",
+    "preview:express": "node server.js",
+    "preview:fastify": "node fastify-server.js",
     "astro": "astro"
   },
   "dependencies": {
